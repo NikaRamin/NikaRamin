@@ -1,2 +1,2 @@
-Nika Ramin / undergraduate CS student👩🏻‍💻
+Nika Ramin / undergraduate CE student👩🏻‍💻
 Interested in AI/ML
