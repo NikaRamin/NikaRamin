@@ -8,8 +8,8 @@
 - 🌱 Looking to collaborate on open-source projects and innovative ideas.
 - 📫 How to reach me: [LinkedIn](www.linkedin.com/in/nika-ramin)
  
-- **Languages**: ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
-
+- **Languages**: ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![C++](https://img.shields.io/badge/-C++-333?style=flat&logo=cplusplus)
+![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
 
 ## 📈 GitHub Stats
 
