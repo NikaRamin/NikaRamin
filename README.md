@@ -1,2 +1,24 @@
-Nika Ramin / undergraduate CE student👩🏻‍💻
-Interested in AI/ML
+# Hi there, I'm Nika Ramin!
+
+![Profile Views](https://komarev.com/ghpvc/?username=NikaRamin&color=brightgreen)
+
+## 🚀 About Me
+
+- 🎓 Currently learning Machine learning.
+- 🌱 Looking to collaborate on open-source projects and innovative ideas.
+- 📫 How to reach me: [LinkedIn](www.linkedin.com/in/nika-ramin)
+ 
+- **Languages**: ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
+
+
+## 📈 GitHub Stats
+
+![NikaRamin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikaRamin&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
+
+## 📫 Connect with Me
+
+- [LinkedIn](www.linkedin.com/in/nika-ramin)
+
+Thanks for visiting my profile! 😊
