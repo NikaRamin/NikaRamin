@@ -28,4 +28,4 @@
 
 - [LinkedIn](https://www.linkedin.com/in/nika-ramin)
 
-_Thanks for visiting my profile! 😊_
+_Thanks for visiting my profile! 😊
