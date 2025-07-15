@@ -1,0 +1,51 @@
+name: Update GitHub Stats in README
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch stats and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          USER="NikaRamin"
+          # PRs
+          PR_COUNT=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/search/issues?q=author:$USER+type:pr+is:merged" | python3 -c "import sys, json; print(json.load(sys.stdin).get('total_count',0))")
+          # Issues
+          ISSUE_COUNT=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/search/issues?q=author:$USER+type:issue+is:public" | python3 -c "import sys, json; print(json.load(sys.stdin).get('total_count',0))")
+          # Stars
+          STAR_COUNT=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$USER/repos?per_page=100" | python3 -c "import sys, json; print(sum([r.get('stargazers_count',0) for r in json.load(sys.stdin)]))")
+          # Forks
+          FORK_COUNT=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$USER/repos?per_page=100" | python3 -c "import sys, json; print(sum([r.get('forks_count',0) for r in json.load(sys.stdin)]))")
+
+          sed -i "s/\(<!-- PR_COUNT -->\)[0-9]\+\(<!-- \/PR_COUNT -->\)/\1${PR_COUNT}\2/" README.md
+          sed -i "s/\(<!-- ISSUE_COUNT -->\)[0-9]\+\(<!-- \/ISSUE_COUNT -->\)/\1${ISSUE_COUNT}\2/" README.md
+          sed -i "s/\(<!-- STAR_COUNT -->\)[0-9]\+\(<!-- \/STAR_COUNT -->\)/\1${STAR_COUNT}\2/" README.md
+          sed -i "s/\(<!-- FORK_COUNT -->\)[0-9]\+\(<!-- \/FORK_COUNT -->\)/\1${FORK_COUNT}\2/" README.md
+
+      - name: Commit & Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Automated update: stats in README"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
