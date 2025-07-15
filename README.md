@@ -19,11 +19,6 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
 ![Streak](https://streak-stats.demolab.com?user=NikaRamin&theme=radical)
 
-### 🔄 My Total Pull Requests: <!-- PR_COUNT -->0<!-- /PR_COUNT -->
-### 📝 My Total Issues: <!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->
-### ⭐ My Total Stars: <!-- STAR_COUNT -->0<!-- /STAR_COUNT -->
-### 📥 My Total Forks: <!-- FORK_COUNT -->0<!-- /FORK_COUNT -->
-
 ## 📫 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/nika-ramin)
