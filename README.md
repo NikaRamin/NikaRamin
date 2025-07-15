@@ -19,8 +19,4 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
 ![Streak](https://streak-stats.demolab.com?user=NikaRamin&theme=radical)
 
-## 📫 Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/nika-ramin)
-
 Thanks for visiting my profile! 😊
