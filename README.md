@@ -17,6 +17,8 @@
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
 
+### 🔄 My Total Pull Requests: <!-- PR_COUNT -->0<!-- /PR_COUNT -->
+
 ## 📫 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/nika-ramin)
