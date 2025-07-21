@@ -1,4 +1,4 @@
-# Hi there, I'm Nika Ramin! 👋
+# Hi there, I'm Nika Ramin!
 
 ![Profile Views](https://komarev.com/ghpvc/?username=NikaRamin&color=brightgreen)
 
@@ -18,6 +18,5 @@
 
 ![NikaRamin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikaRamin&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com?user=NikaRamin&theme=radical)
 
 
