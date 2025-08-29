@@ -14,9 +14,4 @@
 ![C++](https://img.shields.io/badge/-C++-333?style=flat&logo=cplusplus)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
 
-## 📈 GitHub Stats
-
-![NikaRamin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NikaRamin&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikaRamin&layout=compact&theme=radical)
-
 
